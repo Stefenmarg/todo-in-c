@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
         list(DATABASE);
     } else if (strcmp(argv[1], "done") == 0) {
         done(argc, argv, DATABASE);
-    } else if (strcmp(argv[1], "remove") == 0) {
-        printf("remove\n");
+    } else if (strcmp(argv[1], "purge") == 0) {
+        purge(argc, argv, DATABASE);
     } else if (strcmp(argv[1], "edit") == 0) {
         printf("edit\n");
     } else if (strcmp(argv[1], "clear") == 0) {
