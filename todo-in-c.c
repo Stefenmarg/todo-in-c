@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     } else if (strcmp(argv[1], "list") == 0) {
         list(DATABASE);
     } else if (strcmp(argv[1], "done") == 0) {
-        printf("done\n");
+        done(argc, argv, DATABASE);
     } else if (strcmp(argv[1], "remove") == 0) {
         printf("remove\n");
     } else if (strcmp(argv[1], "edit") == 0) {
